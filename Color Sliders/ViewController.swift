@@ -26,6 +26,8 @@ class ViewController: UIViewController {
         redSliderAction()
         greenSliderAction()
         blueSliderAction()
+        
+        colorChangingView.layer.cornerRadius = colorChangingView.frame.width/18
     }
     
     private func changeColor() {
